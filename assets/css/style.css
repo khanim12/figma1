@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+a {
+  color: black;
+}
+.logo a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.container1 {
+  display: flex;
+  gap: 60px;
+  width: 90%;
+  margin: 92px auto;
+}
+.box2 {
+  position: relative;
+}
+
+.portre img {
+  width: 408px;
+  height: 549px;
+}
+.box2 .img1 img {
+  position: absolute;
+  bottom: 400px;
+  left: -50px;
+}
+.box2 .img2 img {
+  position: absolute;
+  left: 310px;
+  top: 0;
+}
+.box2 .img4 img {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.box2 .img3 img {
+  position: absolute;
+  bottom: 400px;
+  right: -20px;
+}
+.box1 {
+  margin-top: 150px;
+  height: 450px;
+}
+.box1 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.box1 h1 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-top: 40px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.box1 p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.container2 {
+  display: flex;
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.container3 {
+  display: flex;
+  width: 70%;
+  margin: 200px auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.container3 .card {
+  text-align: center;
+}
+.container3 .card h3 {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 60px 0 19px;
+}
+.container3 .card p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.container4 {
+  width: 90%;
+  margin: 40px auto;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 40px;
+  margin-left: 50px;
+}
+.container4 h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container4 .image {
+  width: 330px;
+  height: 330px;
+}
+.container4 .boxes .box p:first-of-type {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.container4 .box p:last-of-type {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.container5 {
+  width: 90%;
+  margin: 150px auto;
+}
+.container5 h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.container5 .footer {
+  display: flex;
+}
+.container5 .box {
+  width: 330px;
+  height: 400px;
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+.container5 .box p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 120px;
+}
+.container5 .image {
+  margin-right: 20px;
+}
+.container5 .footer p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  height: 54px;
+  width: 125px;
+}
+.container5 .footer i {
+  margin-right: 5px;
+}
+
+footer .container {
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .left {
+  margin-top: -180px;
+}
+footer .left h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+footer .left p {
+  font: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 359px;
+  margin: 45px 0;
+}
+footer .icons i {
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+footer .icons i:hover {
+  cursor: pointer;
+}
+footer .right {
+  width: 530px;
+}
+footer input,
+footer textarea {
+  background-color: #f3f3f3;
+  padding: 30px;
+  width: 530px;
+  border: none;
+  margin-bottom: 20px;
+}
+footer textarea::placeholder {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+}
+footer button a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration-color: rgb(39, 38, 38);
+}
+a:hover {
+  cursor: pointer;
+}
+footer button {
+  background-color: black;
+  padding: 24px 80px;
+  margin: 20px 0 50px;
+}
